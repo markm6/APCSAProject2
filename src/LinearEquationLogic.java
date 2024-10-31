@@ -38,10 +38,10 @@ public class LinearEquationLogic {
 
                 System.out.print("Enter a value for x: ");
                 double xValue = scanner.nextDouble();
+                scanner.nextLine();
                 System.out.println("The point on the line is " + equation.coordinateForX(xValue));
             }
             System.out.print("Would you like to enter another pair of coordinates? y/n: ");
-            scanner.nextLine();
             choice = scanner.nextLine();
 
         }

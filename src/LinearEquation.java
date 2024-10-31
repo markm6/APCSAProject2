@@ -64,7 +64,7 @@ public class LinearEquation {
                 eq += "x";
             } else {
                 if (isWholeNumber(slope)) {
-                    eq += ((int) slope) + "x";
+                    eq += ((int) Math.abs(slope)) + "x";
                 } else {
                     eq += Math.abs(deltaY) + "/" + Math.abs(deltaX) + "x";
                 }
